@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .sample{
+                width: 100px;
+                height: 100px;
+                background-color: red;
+                -webkit-animation-name: example;
+                animation-name:example;
+                -webkit-animation-duration: 15s;
+                animation-duration: 15s;
+            }
+            @-webkit-keyframes example{
+                from {background-color: red;
+                    margin-left:0px;
+                } to {background-color: yellow;
+                margin-left: 200px;}
+            }
+            @keyframes example{
+                from {background-color: red;
+                    margin-left:0px;
+                } to {background-color: yellow;
+                margin-left: 200px;}
+            }
+
+        </style>
+    </head>
+    <body>
+        <p>녹색이 8초에 걸쳐 노란색으로 바뀌며이동</p>
+        <div class="sample"></div>
+        <p>애니메이션이 녹색으로 표시될 것</p>
+
+    </body>
+</html>

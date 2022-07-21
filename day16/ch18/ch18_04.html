@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .original{
+                width: 100px;
+                height: 100px;
+                background-color: yellow;
+                border: 1px solid grey;
+                margin:40px;
+            }
+            .skewX{
+                width: 100px;
+                height: 100px;
+                background-color: #B40404;
+                border: 1px solid   grey;
+            -ms-transform: skewX(30deg);
+            -webkit-transform: skewX(30deg);
+            transform:skewX(30deg);
+            margin:40px;
+            }
+            .skewY{
+                width: 100px;
+                height: 100px;
+                background-color: #B40404;
+                border: 1px solid   grey;
+            -ms-transform: skewY(30deg);
+            -webkit-transform: skewY(30deg);
+            transform:skewY(30deg);
+            margin:40px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="original">
+            <div class="skewX"></div>
+            <div class="skewY"></div>
+        </div>
+    </body>
+</html>
