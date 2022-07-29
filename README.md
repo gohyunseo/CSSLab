@@ -1,2 +1,4 @@
 # CSSLab
 day 8 notion - https://www.notion.so/Day-8-4b218fac90c747bf8dd2e0e5b6eed878
+
+day 9 notion - https://www.notion.so/Day-9-d57c94fe7dde4eb28fb18733edc2bacd
